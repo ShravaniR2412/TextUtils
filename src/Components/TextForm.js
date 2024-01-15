@@ -34,7 +34,7 @@ export default function TexthtmlForm(props) {
 
     return (
         <>
-            <div>
+            <div className='my-5'>
                 <h3 className={`text-${props.mode==='light'?'dark':'light'}`}>{props.textHeading}</h3>
                 <div  className='mb-3'>
                     <textarea  style={{ backgroundColor: `${props.mode==='light'?'white':'#413b3b8c'}`}} className={`form-control text-${props.mode==='light'?'dark':'light'}`} id="myBox" value={text} onChange={handleOnChange} rows="8"></textarea>

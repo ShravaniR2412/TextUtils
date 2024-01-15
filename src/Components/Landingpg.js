@@ -3,7 +3,7 @@ import React from 'react'
 export default function Landingpg(props) {
     return (
         <>
-            <div className="card container my-5 padding" style={{ width: '30rem',backgroundColor:props.mode === 'light' ? 'rgb(166 170 180 / 71%);' : 'rgb(61 68 84 / 52%)'  } }>
+            <div className="card container my-5 padding" style={{ width: '30rem',backgroundColor:props.mode === 'light' ? 'rgb(166 170 180 / 71%)' : 'rgb(61 68 84 / 52%)'  } }>
             <div className="card-body my-3" style={{ backgroundColor: props.mode === 'light' ? 'white' : '#ced4da' }}>
                     <h3 className="card-title">TextUtils</h3>
                     <p className="card-text">

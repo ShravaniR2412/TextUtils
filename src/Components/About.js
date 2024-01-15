@@ -38,7 +38,7 @@ export default function About() {
     //         backgroundColor:'black'
     // }
     return (
-        <div className='container my-3' style={myStyle} >
+        <div className='container my-5' style={myStyle} >
             <h1>About</h1>
             <div className="accordion" id="accordionExample">
                 <div className="accordion-item">
